@@ -16,6 +16,8 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { InformacoesPageComponent } from './components/informacoes-page/informacoes-page.component';
 import { RedeapoioPageComponent } from './components/redeapoio-page/redeapoio-page.component';
 import { ComodenunciarPageComponent } from './components/comodenunciar-page/comodenunciar-page.component';
+import { MatCardModule } from '@angular/material/card';
+import { RedeapoioCardComponent } from './components/redeapoio-card/redeapoio-card.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { ComodenunciarPageComponent } from './components/comodenunciar-page/como
     HomePageComponent,
     InformacoesPageComponent,
     RedeapoioPageComponent,
-    ComodenunciarPageComponent
+    ComodenunciarPageComponent,
+    RedeapoioCardComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { ComodenunciarPageComponent } from './components/comodenunciar-page/como
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
