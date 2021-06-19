@@ -1,8 +1,13 @@
-mat-card {
-  margin: 5px;
-}
-
 img {
   max-width: 100%;
   border-radius: 5px;
+}
+
+.cardHow {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cviolet);
+  margin: 1%;
+  color: #f2f0f3;
+  opacity: 0.8;
 }

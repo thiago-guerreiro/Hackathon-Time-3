@@ -1,10 +1,10 @@
-<mat-card class="example-card">
+<mat-card class="cardHow">
   <div>
     <h1>{{instituicoes?.nome}}</h1>
   </div>
   <img [src]="instituicoes?.imagem" alt="Imagem da instituicão">
-  <div>
+  <mat-card-content>
     <p>{{instituicoes?.descricao}}</p>
-    <a mat-list-item [href]="instituicoes?.site">Ir para o site</a>
-  </div>
+    <a mat-list-item [href]="instituicoes?.site" target="_blank">Ir para o site</a>
+  </mat-card-content>
 </mat-card>

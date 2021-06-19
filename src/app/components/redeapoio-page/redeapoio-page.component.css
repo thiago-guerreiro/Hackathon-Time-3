@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f0f3;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
+  color: var(--cviolet);
+  width: 100%;
+}
+
+.header h1{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+}
