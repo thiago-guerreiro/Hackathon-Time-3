@@ -28,4 +28,9 @@
   margin: 1%;
   color: #f2f0f3;
   opacity: 0.8;
+  text-align: justify;
+}
+
+a{
+  color: #f2f0f3;
 }
