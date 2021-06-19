@@ -1,5 +1,36 @@
-p {
-    display: flex;
-    flex-direction: row;
-    
+.header{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
+  color: var(--cviolet);
+  width: 100%;
+}
+
+.header h1{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f0f3;
+  margin: 1%;
+}
+
+.cardHow{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--cviolet);
+  margin: 1%;
+  color: #f2f0f3;
+  opacity: 0.8;
+  text-align: justify;
+}
+
+a{
+  color: #f2f0f3;
 }

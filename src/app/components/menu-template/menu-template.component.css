@@ -1,5 +1,7 @@
 .sidenav-container {
   height: 100%;
+
+  color: var(--mnblue);
 }
 
 .sidenav {
