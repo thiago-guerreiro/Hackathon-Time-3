@@ -19,6 +19,7 @@ import { ComodenunciarPageComponent } from './components/comodenunciar-page/como
 import { MatCardModule } from '@angular/material/card';
 import { RedeapoioCardComponent } from './components/redeapoio-card/redeapoio-card.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +29,7 @@ import { RedeapoioCardComponent } from './components/redeapoio-card/redeapoio-ca
     InformacoesPageComponent,
     RedeapoioPageComponent,
     ComodenunciarPageComponent,
-    RedeapoioCardComponent
+    RedeapoioCardComponent,
   ],
   imports: [
     BrowserModule,
