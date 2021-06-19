@@ -5,9 +5,11 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item href="/">Home</a>
+      <a mat-list-item href="/informacoes">Informações</a>
+      <a mat-list-item href="/rededeapoio">Rede de Apoio</a>
+      <a mat-list-item href="/comodenunciar">Como Denunciar</a>
+
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -22,6 +24,6 @@
       </button>
       <span>HackathonDecola</span>
     </mat-toolbar>
-    <!-- Add Content Here -->
+    <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
